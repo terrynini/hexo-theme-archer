@@ -1,21 +1,36 @@
 // You can change the following by yourself :-)
 // ========== DIY ========== //
 $feature-color: #f75357;
-$code-theme: 'atom-one-dark'; // atom-one-dark or atom-one-light
+$code-theme: 'atom-one-light'; // atom-one-dark or atom-one-light
 // ========== global variables ========== //
 $body-background-color: #fff;
-$base-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
+$base-font-family: 'Noto Sans CJK TC', 'Ubuntu-Regular', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
   'PingFang SC', 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei',
   'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC',
   'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC', 'Noto Sans CJK TC',
   'WenQuanYi Micro Hei', SimSun, sans-serif;
-$feature-font-family: 'Oswald-Regular';
+$feature-font-family: 'SAO', 'Oswald-Regular';
 $base-font-size: 16px !default;
 
 // ========== common ========== //
 $container-margin-top: 3rem;
 $selection-color: $feature-color;
-
+//
+@font-face {
+    font-family: 'SAO';  /* project id 327081 */
+    src: url('/font/SAO_by_darkblackswords-d5nssbp.otf');
+  }
+//
+@font-face {
+    font-family: 'Noto Sans CJK TC';  /* project id 327081 */
+    src: url('/font/Noto_sansCJKtc-hinted/NotoSansCJKtc-Regular.otf');
+  }
+//
+@font-face {
+    font-family: 'Ubuntu-Regular'; 
+    src: url('/font/Ubuntu-Regular.ttf');
+  }
+//
 // ========== iconfont ========== //
 @font-face {
   font-family: 'iconfont-archer';  /* project id 327081 */
@@ -50,8 +65,8 @@ $social-iconfont-color: #777;
 // ========== code ========== //
 $code-color-map: (
   'atom-one-light': (
-    base: #fafafa,
-    mono-1: #383a42,
+    base: #fdf6e3,
+    mono-1: #657b83,
     mono-2: #686b77,
     mono-3: #a0a1a7,
     hue-1: #0184bb,
