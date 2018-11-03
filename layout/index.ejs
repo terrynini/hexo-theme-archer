@@ -25,8 +25,24 @@
                     currPost :_post,
                     className : 'abstract-tags'}) %>
                 <% } %>
+                <span><%= _post.title || '[Untitled Post]' %></span>
+        </a>
+        <div class="abstract-content">
+            <%- _content %>
+        </div>
+        <div class="abstract-post-meta">
+            <!-- date  -->
+            <div class="abstract-date">
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time"><%- date(_post.date, "YYYY/MM/DD") %></span>
             </div>
-        </article>
+            <!-- tags  -->
+            <% if(_post.tags.length) { %>
+            <%- partial('./_partial/base-title-tags', {
+                currPost :_post,
+                className : 'abstract-tags'}) %>
+            <% } %>
+        </div>
+    </article>
     <% }) %>
     <!-- paginator  -->
     <% if (page.total > 1){ %>
