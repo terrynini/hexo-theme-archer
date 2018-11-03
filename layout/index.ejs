@@ -11,7 +11,8 @@
                     <span><%= _post.title || '[Untitled Post]' %></span>
             </a>
             <div class="abstract-content">
-                <%- _content %>
+                <%- _post.excerpt %>
+		        <p><a class="abstract-title " href="/<%= _post.path %>"><%- theme.readMore %></a></p>
             </div>
             <div class="abstract-post-meta">
                 <!-- date  -->
