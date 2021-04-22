@@ -1,4 +1,9 @@
 <footer class="footer footer-unloaded">
+    <!-- mermaid-->
+    <% if (theme.mermaid.enable) { %>
+      <script src="https://unpkg.com/mermaid@8.4.6/dist/mermaid.min.js"></script>
+      <script>mermaid.initialize({startOnLoad:true});</script>
+      <% } %>
     <!-- social  -->
     <% if(theme.social) { %>
     <div class="social">

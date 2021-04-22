@@ -3,3 +3,5 @@ node_modules
 _config_.yml
 _config__.yml
 .jsbeautifyrc
+.DS_Store
+**/.DS_Store

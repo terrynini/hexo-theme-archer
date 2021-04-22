@@ -4,22 +4,23 @@ $feature-color: #f75357;
 $code-theme: 'atom-one-light'; // atom-one-dark or atom-one-light
 // ========== global variables ========== //
 $body-background-color: #fff;
-$base-font-family: 'Noto Sans CJK TC', 'Ubuntu-Regular', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
+$base-font-family:  'Ubuntu-Regular',  -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
   'PingFang SC', 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei',
   'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC',
   'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC', 'Noto Sans CJK TC',
   'WenQuanYi Micro Hei', SimSun, sans-serif;
-$feature-font-family: 'SAO', 'Oswald-Regular';
+//$feature-font-family: 'SAO', 'Oswald-Regular';
+$feature-font-family: 'Oswald-Regular';
 $base-font-size: 16px !default;
 
 // ========== common ========== //
 $container-margin-top: 3rem;
 $selection-color: $feature-color;
 //
-@font-face {
-    font-family: 'SAO';  /* project id 327081 */
-    src: url('/font/SAO_by_darkblackswords-d5nssbp.otf');
-  }
+//@font-face {
+//    font-family: 'SAO';  /* project id 327081 */
+//    src: url('/font/SAO_by_darkblackswords-d5nssbp.otf');
+//  }
 //
 @font-face {
     font-family: 'Noto Sans CJK TC';  /* project id 327081 */
