@@ -5,3 +5,7 @@ _config__.yml
 .jsbeautifyrc
 .DS_Store
 **/.DS_Store
+*.iml
+*.ipr
+*.iws
+*.iml
